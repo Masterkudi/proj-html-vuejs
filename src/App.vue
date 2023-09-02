@@ -47,7 +47,8 @@ export default {
           <div class="my-component audiobook text-center">
             <h2>New Audiobook</h2>
             <h3>NO TIME TO READ? NO PROBLEM. LISTEN TO IT</h3>
-            <p class="p text-secondary">Donec fringilla nunc eu turpis dignissim, at <br> euismod sapien tincidunt. Maecenas eleifend
+            <p class="p text-secondary">Donec fringilla nunc eu turpis dignissim, at <br> euismod sapien tincidunt.
+              Maecenas eleifend
               congue
               cursus.
             </p>
@@ -77,12 +78,14 @@ export default {
             <nav class="navbar bg-body-transparent p-3">
               <div class="container-fluid">
                 <form class="d-flex" role="search">
-                  <input class="form-control p-2 me-3 " type="search" placeholder="Insert Your Email...*" aria-label="Search">
+                  <input class="form-control p-2 me-3 " type="search" placeholder="Insert Your Email...*"
+                    aria-label="Search">
                   <button class="btn bg-success text-white" type="submit">Subscribe</button>
                 </form>
               </div>
             </nav>
-            <p class="p text-center text-secondary">Donec fringilla nunc eu turpis dignissim, at euismod <br> sapien tincidunt.</p>
+            <p class="p text-center text-secondary">Donec fringilla nunc eu turpis dignissim, at euismod <br> sapien
+              tincidunt.</p>
           </div>
         </div>
       </div>
@@ -151,6 +154,8 @@ export default {
 
 .container-audiobook {
   background-image: url(./assets/img/banner.jpg);
+  background-position-y: center;
+  background-position-x: center;
   padding-top: 5rem;
   padding-left: 15rem;
   padding-right: 15rem;
@@ -158,6 +163,7 @@ export default {
 
 .container-subscribe {
   background-image: url(./assets/img/banner-2.jpg);
-  padding: 5rem 15rem 5rem 15rem;
-}
-</style>
+  background-position-y: center;
+  background-position-x: center;
+  padding: 6rem 15rem;
+}</style>
