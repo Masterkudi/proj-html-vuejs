@@ -8,28 +8,28 @@ export default {
     <footer>
         <div class="footer-cover">
             <div class="footer-text d-flex">
-                <div>
-                    <img src="../assets/img/img/author-logo-round.png" alt="">
+                <div class="logo">
+                    <img src="../assets/img/author-logo-round.png" alt="">
                 </div>
-                <div>
-                    <h4>ABOUT ME</h4>
+                <div class="about">
+                    <h5>ABOUT ME</h5>
                     <p>
-                        Vivamus suscipit tortor eget felis porttitor volutpat. Nulla quis lorem ut libero malesuada
-                        feugiat. Vivamus suscipit tortor eget felis porttitor volutpat.
+                        Vivamus suscipit tortor eget felis <br> porttitor volutpat. Nulla quis lorem <br> ut libero malesuada <br>
+                        feugiat. Vivamus suscipit tortor <br> eget felis porttitor volutpat.
                     </p>
                 </div>
-                <div>
-                    <h4>USEFUL LINKS</h4>
+                <div class="links">
+                    <h5>USEFUL LINKS</h5>
                     <ul>
-                        <li>Latest Books</li>
-                        <li>Upcoming Events</li>
-                        <li>Recent Articles</li>
-                        <li>Business Enquiries</li>
-                        <li>Visit My Foundation</li>
+                        <li><i class="fa-solid fa-chevron-right"></i>  Latest Books</li>
+                        <li><i class="fa-solid fa-chevron-right"></i>  Upcoming Events</li>
+                        <li><i class="fa-solid fa-chevron-right"></i>  Recent Articles</li>
+                        <li><i class="fa-solid fa-chevron-right"></i>  Business Enquiries</li>
+                        <li><i class="fa-solid fa-chevron-right"></i>  Visit My Foundation</li>
                     </ul>
                 </div>
-                <div>
-                    <h4>CONTACT INFO</h4>
+                <div class="info">
+                    <h5>CONTACT INFO</h5>
                     <p>63 E. Studebaker Street Bolingbrook, IL 60440</p>
                     <p>Phone: (800)000-0000</p>
                     <p>Mobile: (800)000-0000</p>
@@ -51,15 +51,28 @@ export default {
 .footer-cover {
     background-image: url(../assets/img/footer-3.jpg);
     color: #fff;
-    display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     position: relative;
-    max-height: 100%;
+}
+.footer-text .logo, .about, .links, .info {
+    padding: 4rem;
+}
+.footer-text h5 {
+    margin-bottom: 2rem;
+}
+.footer-text .links ul {
+    list-style: none;
+    padding-left: 0;
+}
+.links li:hover {
+    color: #F4B429;
 }
 .footer-text img {
     align-self: center;
+    width: 10rem;
 }
-.footer-text .social-icons {
+.social-icons a {
     color: #fff;
+    padding: .5rem;
 }
 </style>
