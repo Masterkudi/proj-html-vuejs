@@ -91,42 +91,95 @@ export default {
         </div>
         <div>
           <div class="ps-6 pe-6">
-          <div class="ps-4 pe-4 pb-4 text-center">
-            <div style="background-color: #FEF7E9; padding: 3rem;">
-              <h3>A True Masterpiece, Bravo!</h3>
-              <p>Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed,
-                convallis
-                at tellus. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla quis lorem ut libero malesuada
-                feug at.</p>
+            <div class="ps-4 pe-4 pb-4 text-center">
+              <div style="background-color: #FEF7E9; padding: 3rem;">
+                <h3>A True Masterpiece, Bravo!</h3>
+                <p>Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed,
+                  convallis
+                  at tellus. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla quis lorem ut libero malesuada
+                  feug at.</p>
+              </div>
+              <div class="d-flex flex-direction-row" style="font-size: 1rem;">
+                <img class="p-2" src="./assets/img/theguardian-xsmall.png" alt="">
+                <h5 class="p-2 mb-0">Gerald Hendley</h5>
+                <h5 class=" p-2 mb-0">The Guardian</h5>
+              </div>
             </div>
-            <div class="d-flex flex-direction-row" style="font-size: 1rem;">
-              <img class="p-2" src="./assets/img/theguardian-xsmall.png" alt="">
-              <h5 class="p-2 mb-0">Gerald Hendley</h5>
-              <h5 class=" p-2 mb-0">The Guardian</h5>
+            <div class="ps-4 pe-4 pt-4 text-center">
+              <div style="background-color: #FEF7E9; padding: 3rem;">
+                <h3>A Unique View On The World</h3>
+                <p>Donec sollicitudin molestie malesuada. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                  Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Nulla quis lorem ut libero
+                  malesuada
+                  feugiat. Vestibulum ac diam sit amet.</p>
+              </div>
+              <div class="d-flex flex-direction-row text-center">
+                <img class="p-2" src="./assets/img/globe-xsmall.png" alt="">
+                <h5 class="p-2 mb-0">Mary Maxey</h5>
+                <h5 class=" p-2 mb-0">The Globe And Mail</h5>
+              </div>
             </div>
           </div>
-          <div class="ps-4 pe-4 pt-4 text-center">
-            <div style="background-color: #FEF7E9; padding: 3rem;">
-              <h3>A Unique View On The World</h3>
-              <p>Donec sollicitudin molestie malesuada. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-                Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Nulla quis lorem ut libero malesuada
-                feugiat. Vestibulum ac diam sit amet.</p>
-            </div>
-            <div class="d-flex flex-direction-row text-center">
-            <img class="p-2" src="./assets/img/globe-xsmall.png" alt="">
-            <h5 class="p-2 mb-0">Mary Maxey</h5>
-            <h5 class=" p-2 mb-0">The Globe And Mail</h5>
-          </div>
-          </div>
-        </div>
         </div>
       </div>
 
 
     </div>
     <!-- QUINTA SEZIONE DEL MAIN -->
-    <div>
+    <div class="container-events">
+      <div class="d-flex justify-content-center">
+        <div class="align-items-center text-center">
+          <h2 style="font-family: 'Playfair Display', serif;">Upcoming Events</h2>
+          <h3>MEET THE AUTHOR IN PERSON</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="cols-4 d-flex justify-content-between">
+          <div class="p-3">
+            <div class="bg-white">
+              <img src="./assets/img/event-05-400x240.jpg" alt="">
+              <div class="p-2">
+                <h2 class="text-center align-items-center"><a class="text-center p-4 " href="#"
+                    style="border-bottom: 1px solid black;">Chicago Book Signing</a></h2>
+                <p class="p-4 text-center">
+                  Mauris blandit aliquet elit, eget <br> tincidunt nibh pulvinar a. Mauris <br> blandit aliquet elit, eget
+                  tincidunt nibh <br> pulvinar a nulla.
+                </p>
+              </div>
 
+            </div>
+          </div>
+          <div class="p-3">
+            <div class="bg-white">
+              <img src="./assets/img/event-04-400x240.jpg" alt="">
+              <div class="p-2">
+                <h2 class="text-center align-items-center"><a class="text-center p-4 " href="#"
+                    style="border-bottom: 1px solid black;">Meet & Greet With Amanda</a></h2>
+                <p class="p-4 text-center">
+                  Mauris blandit aliquet elit, eget <br> tincidunt nibh pulvinar a. Praesent <br> sapien massa, convallis
+                  a pellentesque <br> nec, egestas.
+                </p>
+              </div>
+
+            </div>
+          </div>
+          <div class="p-3">
+            <div class="bg-white">
+              <img src="./assets/img/event-07-400x240.jpg" alt="">
+              <div class="p-2">
+                <h2 class="text-center align-items-center"><a class="text-center p-4 " href="#"
+                    style="border-bottom: 1px solid black;">Open Book: Dialogues</a></h2>
+                <p class="p-4 text-center">
+                  Mauris blandit aliquet elit, eget <br> tincidunt nibh pulvinar a. Mauris <br> blandit aliquet elit, eget
+                  tincidunt nibh <br> pulvinar a nulla.
+                </p>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- SESTA SEZIONE DEL MAIN -->
     <div class="container-subscribe">
@@ -154,7 +207,33 @@ export default {
     </div>
     <!-- SETTIMA SEZIONE DEL MAIN -->
     <div>
-
+      <div class="container-himself">
+      <div class="d-flex justify-content-center">
+        <div class="align-items-center text-center">
+          <h2 style="font-family: 'Playfair Display', serif;">Dig A Little Deeper Into Damon Vaughn</h2>
+          <h3 class="text-success">FIND OUT MORE ABOUT THE AUTHOR HIMSELF</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="cols-4 d-flex justify-content-center">
+          <div class="p-3">
+            <div class="bg-white">
+              <img src="./assets/img/box-1.jpg" alt="">
+            </div>
+          </div>
+          <div class="p-3">
+            <div class="bg-white">
+              <img src="./assets/img/box-4.jpg" alt="">
+            </div>
+          </div>
+          <div class="p-3">
+            <div class="bg-white">
+              <img src="./assets/img/box-3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
     <!-- OTTAVA SEZIONE DEL MAIN -->
     <div>
@@ -259,5 +338,35 @@ export default {
   background-position-y: center;
   background-position-x: center;
   padding: 6rem 15rem;
+}
+
+.container-events {
+  background-color: #FEF7E9;
+  padding: 4rem 10rem;
+}
+
+.container-events h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.container-events a {
+  font-size: 1.5rem;
+  color: #000;
+
+  text-decoration: none;
+}
+
+.container-events h3 {
+  color: #F4B429;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.container-himself {
+  padding: 4rem 10rem;
+}
+.container-himself .cols-4 {
+  background-position-y: center;
+  background-position-x: center;
 }
 </style>
