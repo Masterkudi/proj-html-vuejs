@@ -60,6 +60,68 @@ export default {
     </div>
     <!-- QUARTA SEZIONE DEL MAIN -->
     <div class="container-testimonials">
+      <div class="d-flex justify-content-between">
+        <div>
+          <h2>What The Critics Say</h2>
+          <h3>TESTIMONIALS FROM AROUND THE WORLD</h3>
+        </div>
+        <div>
+          <img src="./assets/img/hover-button3.png" alt="">
+        </div>
+      </div>
+      <div class="d-flex justify-content-between">
+        <div class="author">
+          <h4>Best Author Of His <br> Generation</h4>
+          <hr class="text-white">
+          <h5 class="mb-4">This Book Will Change Your Perspective On Life</h5>
+          <p class="mb-4 ">Donec fringilla sollicitudin molestie malesuada. Curabitur arcu erat, accumsan id imperdiet et,
+            porttitor at
+            sem. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Nulla quis lorem ut libero
+            malesuada feugiat. Vestibulum ac diam sit amet.
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatum et recusandae ullam nihil. Aperiam
+            aspernatur unde necessitatibus, nemo eius, animi pariatur nobis molestias porro magni accusantium.
+            Reprehenderit, rerum aut?
+          </p>
+          <div class="d-flex flex-direction-row text-center">
+            <img class="p-2" src="./assets/img/nytimes-logo-white-xsmall.png" alt="">
+            <h5 class="p-2 mb-0">Justine Killpatrick</h5>
+            <h5 class=" p-2 mb-0 text-success">The New York times</h5>
+          </div>
+        </div>
+        <div>
+          <div class="ps-6 pe-6">
+          <div class="ps-4 pe-4 pb-4 text-center">
+            <div style="background-color: #FEF7E9; padding: 3rem;">
+              <h3>A True Masterpiece, Bravo!</h3>
+              <p>Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed,
+                convallis
+                at tellus. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla quis lorem ut libero malesuada
+                feug at.</p>
+            </div>
+            <div class="d-flex flex-direction-row" style="font-size: 1rem;">
+              <img class="p-2" src="./assets/img/theguardian-xsmall.png" alt="">
+              <h5 class="p-2 mb-0">Gerald Hendley</h5>
+              <h5 class=" p-2 mb-0">The Guardian</h5>
+            </div>
+          </div>
+          <div class="ps-4 pe-4 pt-4 text-center">
+            <div style="background-color: #FEF7E9; padding: 3rem;">
+              <h3>A Unique View On The World</h3>
+              <p>Donec sollicitudin molestie malesuada. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Nulla quis lorem ut libero malesuada
+                feugiat. Vestibulum ac diam sit amet.</p>
+            </div>
+            <div class="d-flex flex-direction-row text-center">
+            <img class="p-2" src="./assets/img/globe-xsmall.png" alt="">
+            <h5 class="p-2 mb-0">Mary Maxey</h5>
+            <h5 class=" p-2 mb-0">The Globe And Mail</h5>
+          </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
 
     </div>
     <!-- QUINTA SEZIONE DEL MAIN -->
@@ -161,9 +223,41 @@ export default {
   padding-right: 15rem;
 }
 
+.container-testimonials {
+  padding: 4rem 10rem;
+}
+
+.container-testimonials h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.container-testimonials h3 {
+  color: #49AA8B;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.author {
+  background-image: url(./assets/img/testimonial2-2x.jpg);
+  background-size: cover;
+  color: #fff;
+  padding: 5rem;
+  border-radius: 0 0 70px 0;
+  max-width: 45%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.author:hover {
+  transform: scale(1.03);
+}
+
 .container-subscribe {
   background-image: url(./assets/img/banner-2.jpg);
   background-position-y: center;
   background-position-x: center;
   padding: 6rem 15rem;
-}</style>
+}
+</style>
