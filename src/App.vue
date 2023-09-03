@@ -209,7 +209,7 @@ export default {
       <div class="container-himself">
         <div class="d-flex p-4 justify-content-center">
           <div class="align-items-center text-center">
-            <h2 style="font-family: 'Playfair Display', serif;">Dig A Little Deeper Into Damon Vaughn</h2>
+            <h2 style="font-family: 'Playfair Display', serif; color: #000; font-weight: 600;">Dig A Little Deeper Into Damon Vaughn</h2>
             <h3 class="text-success">FIND OUT MORE ABOUT THE AUTHOR HIMSELF</h3>
           </div>
         </div>
@@ -217,16 +217,19 @@ export default {
           <div class="cols-4 ps-5 pe-5 d-flex justify-content-center">
             <div class="p-4">
               <div class="image-one">
+                <h2 class="p-2 text-center">About Me</h2>
 
               </div>
             </div>
             <div class="p-4">
               <div class="image-two">
+                <h2 class="p-2 text-center">My Latest Book</h2>
 
               </div>
             </div>
             <div class="p-4">
               <div class="image-three">
+                <h2 class="p-2 text-center">Book Signing</h2>
 
               </div>
             </div>
@@ -364,28 +367,46 @@ export default {
   padding: 4rem 10rem;
 }
 .container-himself h2 {
-  font-size: 2.5rem;
-  font-weight: 600;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
 }
 .container-himself h3 {
   font-size: 1rem;
 }
 
-.container-himself .row .p-4 {
-  width: 100%;
+.image-one {
+  background-image: url(./assets/img/box-1.jpg);
   border-radius: 0 0 50px 0;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  min-height: 400px;
+
+}
+.image-two {
+  background-image: url(./assets/img/box-4.jpg);
+  border-radius: 0 0 50px 0;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  min-height: 100%;
+}
+.image-three {
+  background-image: url(./assets/img/box-3.jpg);
+  border-radius: 0 0 50px 0;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  min-height: 100%;
+}
+
+.container-himself .row .p-4 {
+  width: 30%;
   transition: transform 0.3s ease-in-out;
 }
 .container-himself .row .p-4:hover {
   transform: scale(1.03);
 }
-.image-one {
-  background-image: url(./assets/img/box-1.jpg);
-}
-.image-two {
-  background-image: url(./assets/img/box-4.jpg);
-}
-.image-three {
-  background-image: url(./assets/img/box-3.jpg);
-}
+
 </style>

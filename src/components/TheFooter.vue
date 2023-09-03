@@ -43,6 +43,9 @@ export default {
                     </div>
                 </div>
             </div>
+           <div>
+            <h6 class="text-center">© Copyright 2012 - 2023 | Avada Theme by <a href="#">ThemeFusion</a> | All Rights Reserved | Powered by <a href="#">WordPress</a></h6>
+           </div>
         </div>
     </footer>
 </template>
