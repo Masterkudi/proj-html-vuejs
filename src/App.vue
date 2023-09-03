@@ -206,35 +206,33 @@ export default {
       </div>
     </div>
     <!-- SETTIMA SEZIONE DEL MAIN -->
-    <div>
       <div class="container-himself">
-      <div class="d-flex justify-content-center">
-        <div class="align-items-center text-center">
-          <h2 style="font-family: 'Playfair Display', serif;">Dig A Little Deeper Into Damon Vaughn</h2>
-          <h3 class="text-success">FIND OUT MORE ABOUT THE AUTHOR HIMSELF</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="cols-4 d-flex justify-content-center">
-          <div class="p-3">
-            <div class="bg-white">
-              <img src="./assets/img/box-1.jpg" alt="">
-            </div>
-          </div>
-          <div class="p-3">
-            <div class="bg-white">
-              <img src="./assets/img/box-4.jpg" alt="">
-            </div>
-          </div>
-          <div class="p-3">
-            <div class="bg-white">
-              <img src="./assets/img/box-3.jpg" alt="">
-            </div>
+        <div class="d-flex p-4 justify-content-center">
+          <div class="align-items-center text-center">
+            <h2 style="font-family: 'Playfair Display', serif;">Dig A Little Deeper Into Damon Vaughn</h2>
+            <h3 class="text-success">FIND OUT MORE ABOUT THE AUTHOR HIMSELF</h3>
           </div>
         </div>
+        <div class="row">
+          <div class="cols-4 ps-5 pe-5 d-flex justify-content-center">
+            <div class="p-4">
+              <div class="image-one">
+
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="image-two">
+
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="image-three">
+
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    </div>
     <!-- OTTAVA SEZIONE DEL MAIN -->
     <div>
 
@@ -353,7 +351,6 @@ export default {
 .container-events a {
   font-size: 1.5rem;
   color: #000;
-
   text-decoration: none;
 }
 
@@ -362,11 +359,33 @@ export default {
   font-size: 1rem;
   margin-bottom: 2rem;
 }
+
 .container-himself {
   padding: 4rem 10rem;
 }
-.container-himself .cols-4 {
-  background-position-y: center;
-  background-position-x: center;
+.container-himself h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.container-himself h3 {
+  font-size: 1rem;
+}
+
+.container-himself .row .p-4 {
+  width: 100%;
+  border-radius: 0 0 50px 0;
+  transition: transform 0.3s ease-in-out;
+}
+.container-himself .row .p-4:hover {
+  transform: scale(1.03);
+}
+.image-one {
+  background-image: url(./assets/img/box-1.jpg);
+}
+.image-two {
+  background-image: url(./assets/img/box-4.jpg);
+}
+.image-three {
+  background-image: url(./assets/img/box-3.jpg);
 }
 </style>
