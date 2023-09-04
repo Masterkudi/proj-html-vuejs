@@ -40,6 +40,9 @@ export default {
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Me</a>
+                    </li>
                 </ul>
             </div>
             <div>
@@ -56,17 +59,17 @@ export default {
                     </div>
                 </div>
             </div>
-            <div>
-                <div class="banner d-flex">
-                    <div class="banner-row">
-                        <div class="col-3 d-flex">
-                            <div class="bg-white flex-direction-row">
-                                <img src="../assets/img/book-widget.png" alt="">
-                            
+            <div class="banner">
+                <div class="banner-row d-flex">
+                    <div class="col-4">
+                        <div class="p-5 bg-white d-flex flex-direction-row align-items-flex-end">
+                            <img src="../assets/img/book-widget.png" alt="">
+                            <div>
                                 <h2>Latest Book Release</h2>
                                 <h4>D. VAUGHN AUTOBIOGRAPHY</h4>
                                 <p>
-                                    Donec fringilla nunc eu turpis dignissim, at euismod sapien tincidunt. Maecenas eleifend
+                                    Donec fringilla nunc eu turpis dignissim, at euismod sapien tincidunt. Maecenas
+                                    eleifend
                                     congue cursus.
                                 </p>
                             </div>
@@ -78,7 +81,7 @@ export default {
     </header>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .header-cover {
     display: flex;
     flex-direction: column;
@@ -117,13 +120,11 @@ export default {
     margin: 2rem 0rem;
 }
 
-.menu li {
-    margin-top: 4px solid #F4B429;
-}
 
 .menu li:hover {
     transition: 1s;
     color: #F4B429;
+    margin-top: 2px solid #F4B429;
 }
 
 .title-row {
@@ -158,9 +159,9 @@ export default {
 }
 
 .banner-row {
-    display: flex;
-    position: relative;
+    position: absolute;
     flex-direction: row-reverse;
+    align-items: flex-end;
     width: 100%;
 }
 

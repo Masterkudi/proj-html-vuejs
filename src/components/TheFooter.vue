@@ -52,7 +52,7 @@ export default {
     </footer>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .footer-cover {
     background-image: url(../assets/img/footer-3.jpg);
     color: #fff;

@@ -245,8 +245,7 @@ export default {
         </div>
       </div>
     </div>
-    <!-- OTTAVA SEZIONE DEL MAIN -->
-    <div>
+    <!-- OTTAVA SEZIONE DEL MAIN --> 
       <div class="container-articles">
         <div class="d-flex justify-content-between mb-3">
           <div>
@@ -272,31 +271,32 @@ export default {
               </p>
             </div>
           </div>
-          <div class="ps-5" style="width: 40%;">
-            <div class=" text-center">
+          <div class="ms-5" style="width: 40%; background-color: #fff;">
+            <div class="articles text-center">
               <div style="background-color: #fff; padding: 2rem;">
                 <img src="./assets/img/thumb-13-2x-700x441.jpg" alt="" style="width: 100%;">
-                <div class="position-absolute text-center p-2">
-                  <h3>What's On Your Booklist?</h3>
-                  <p>By admin|October 24th, 2019</p>
+                <div class="text-center p-3">
+                  <div class="articles-text">
+                    <h3>What's On Your Booklist?</h3>
+                    <p>By admin|October 24th, 2019</p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="text-center">
+            <div class="articles text-center">
               <div style="background-color: #fff; padding: 2rem;">
                 <img src="./assets/img/thumb-08-2x-700x441.jpg" alt="" style="width: 100%;">
-                <div class="position-absolute text-center p-2">
-                  <h3>Instanbul Travel Guide</h3>
-                  <p>By admin|October 24th, 2019</p>
+                <div class="text-center p-3">
+                  <div class="articles-text">
+                    <h3>Instanbul Travel Guide</h3>
+                    <p>By admin|October 24th, 2019</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-
       </div>
-    </div>
   </main>
   <TheFooter></TheFooter>
 </template>
@@ -473,6 +473,33 @@ export default {
 
 .container-articles {
   background-color: #FEF7E9;
-  padding: 4rem 15rem;
+  padding: 8rem 15rem;
 }
+
+/* PROVO AD AGGIUNGERE IL LINEAR GRADIENT ALLE 3 IMMAGINI DELL'8A SEZIONE MA APPARENTEMENTE NON FUNZIONA. */
+
+/* .articles img {
+  position: relative;
+  overflow: hidden;
+}
+
+.articles img::before {
+  content: ""; 
+  position: absolute; 
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(134, 253, 219, 1));
+  transition: height 0.3s ease-in-out;
+}
+
+.articles img:hover::before {
+  height: 100%;
+}
+
+.articles {
+  position: relative;
+}
+ */
 </style>
