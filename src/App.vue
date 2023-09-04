@@ -31,10 +31,18 @@ export default {
     <!-- SECONDA SEZIONE DEL MAIN -->
     <div class="container-sponsor text-center">
       <div>
-        <img src="./assets/img/ebay-logotan-2x-400x132.png" alt="">
-        <img src="./assets/img/audible-logotan-2x-400x132.png" alt="">
-        <img src="./assets/img/bb-logotan-2x-400x132.png" alt="">
-        <img src="./assets/img/kindlefire-logotan-2x-400x132.png" alt="">
+        <a
+          href="https://themeforest.net/item/avada-responsive-multipurpose-theme/2833226?irgwc=1&clickid=2xUQZIwpxxyPRkpTADwA1wXYUkFyIvRJgVdfQI0&iradid=275988&irpid=1292887&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=&utm_campaign=af_impact_radius_1292887&utm_medium=affiliate&utm_source=impact_radius"><img
+            src="./assets/img/ebay-logotan-2x-400x132.png" alt=""></a>
+        <a
+          href="https://themeforest.net/item/avada-responsive-multipurpose-theme/2833226?irgwc=1&clickid=2xUQZIwpxxyPRkpTADwA1wXYUkFyIvRJgVdfQI0&iradid=275988&irpid=1292887&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=&utm_campaign=af_impact_radius_1292887&utm_medium=affiliate&utm_source=impact_radius"><img
+            src="./assets/img/audible-logotan-2x-400x132.png" alt=""></a>
+        <a
+          href="https://themeforest.net/item/avada-responsive-multipurpose-theme/2833226?irgwc=1&clickid=2xUQZIwpxxyPRkpTADwA1wXYUkFyIvRJgVdfQI0&iradid=275988&irpid=1292887&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=&utm_campaign=af_impact_radius_1292887&utm_medium=affiliate&utm_source=impact_radius"><img
+            src="./assets/img/bb-logotan-2x-400x132.png" alt=""></a>
+        <a
+          href="https://themeforest.net/item/avada-responsive-multipurpose-theme/2833226?irgwc=1&clickid=2xUQZIwpxxyPRkpTADwA1wXYUkFyIvRJgVdfQI0&iradid=275988&irpid=1292887&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=&utm_campaign=af_impact_radius_1292887&utm_medium=affiliate&utm_source=impact_radius"><img
+            src="./assets/img/kindlefire-logotan-2x-400x132.png" alt=""></a>
       </div>
     </div>
     <!-- TERZA SEZIONE DEL MAIN -->
@@ -206,39 +214,88 @@ export default {
       </div>
     </div>
     <!-- SETTIMA SEZIONE DEL MAIN -->
-      <div class="container-himself">
-        <div class="d-flex p-4 justify-content-center">
-          <div class="align-items-center text-center">
-            <h2 style="font-family: 'Playfair Display', serif; color: #000; font-weight: 600;">Dig A Little Deeper Into Damon Vaughn</h2>
-            <h3 class="text-success">FIND OUT MORE ABOUT THE AUTHOR HIMSELF</h3>
-          </div>
+    <div class="container-himself">
+      <div class="d-flex p-4 justify-content-center">
+        <div class="align-items-center text-center">
+          <h2 style="font-family: 'Playfair Display', serif; color: #000; font-weight: 600;">Dig A Little Deeper Into
+            Damon Vaughn</h2>
+          <h3 class="text-success">FIND OUT MORE ABOUT THE AUTHOR HIMSELF</h3>
         </div>
-        <div class="row">
-          <div class="cols-4 ps-5 pe-5 d-flex justify-content-center">
-            <div class="p-4">
-              <div class="image-one">
-                <h2 class="p-2 text-center">About Me</h2>
+      </div>
+      <div class="row">
+        <div class="cols-4 ps-5 pe-5 d-flex justify-content-center">
+          <div class="p-4">
+            <div class="image-one">
+              <h2 class="p-2 text-center">About Me</h2>
 
-              </div>
             </div>
-            <div class="p-4">
-              <div class="image-two">
-                <h2 class="p-2 text-center">My Latest Book</h2>
+          </div>
+          <div class="p-4">
+            <div class="image-two">
+              <h2 class="p-2 text-center">My Latest Book</h2>
 
-              </div>
             </div>
-            <div class="p-4">
-              <div class="image-three">
-                <h2 class="p-2 text-center">Book Signing</h2>
+          </div>
+          <div class="p-4">
+            <div class="image-three">
+              <h2 class="p-2 text-center">Book Signing</h2>
 
-              </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
     <!-- OTTAVA SEZIONE DEL MAIN -->
     <div>
+      <div class="container-articles">
+        <div class="d-flex justify-content-between mb-3">
+          <div>
+            <h2 class="fs-1 mb-3" style="font-family: 'Playfair Display', serif; color: #000; font-weight: 600;">Recent
+              Articles</h2>
+            <h3 class="text-success fs-6 mb-3">READ THE LATEST ENTRIES</h3>
+          </div>
+          <div>
+            <button class="btn text-white ps-5 pe-5 d-flex align-self-center" style="background-color: #F4B429;"
+              type="submit">All
+              Articles</button>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between">
+          <div class="articles bg-white ps-5 pt-5 pe-5" style="width: 70%;">
+            <img src="./assets/img/20-Tips-400x235.jpg" style="width: 100%;" alt="">
+            <div class="p-4">
+              <p class="fs-3">20 Creativity Tips</p>
+              <p class="mb-4 fs-7">By admin|October 24th, 2019|Categories: Event, Tips & Tricks</p>
+              <p class="mb-4 fs-5">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                Donec
+                velit neque, auctor sit amet aliquam vel, ullamcorper sit amet.
+              </p>
+            </div>
+          </div>
+          <div class="ps-5" style="width: 40%;">
+            <div class=" text-center">
+              <div style="background-color: #fff; padding: 2rem;">
+                <img src="./assets/img/thumb-13-2x-700x441.jpg" alt="" style="width: 100%;">
+                <div class="position-absolute text-center p-2">
+                  <h3>What's On Your Booklist?</h3>
+                  <p>By admin|October 24th, 2019</p>
+                </div>
+              </div>
+            </div>
+            <div class="text-center">
+              <div style="background-color: #fff; padding: 2rem;">
+                <img src="./assets/img/thumb-08-2x-700x441.jpg" alt="" style="width: 100%;">
+                <div class="position-absolute text-center p-2">
+                  <h3>Instanbul Travel Guide</h3>
+                  <p>By admin|October 24th, 2019</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
+
+      </div>
     </div>
   </main>
   <TheFooter></TheFooter>
@@ -366,11 +423,13 @@ export default {
 .container-himself {
   padding: 4rem 10rem;
 }
+
 .container-himself h2 {
   color: #fff;
   font-size: 2rem;
   font-weight: 400;
 }
+
 .container-himself h3 {
   font-size: 1rem;
 }
@@ -384,6 +443,7 @@ export default {
   min-height: 400px;
 
 }
+
 .image-two {
   background-image: url(./assets/img/box-4.jpg);
   border-radius: 0 0 50px 0;
@@ -392,6 +452,7 @@ export default {
   background-position-x: center;
   min-height: 100%;
 }
+
 .image-three {
   background-image: url(./assets/img/box-3.jpg);
   border-radius: 0 0 50px 0;
@@ -405,8 +466,13 @@ export default {
   width: 30%;
   transition: transform 0.3s ease-in-out;
 }
+
 .container-himself .row .p-4:hover {
   transform: scale(1.03);
 }
 
+.container-articles {
+  background-color: #FEF7E9;
+  padding: 4rem 15rem;
+}
 </style>
